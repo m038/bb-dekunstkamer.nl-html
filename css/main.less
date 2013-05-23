@@ -1,0 +1,113 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import 'variables.less';
+
+body {
+	padding: 0;
+	font-size: 1em;
+	font-family: Arial, Verdana, sans-serif;
+
+	// Background
+	background-image: url(../img/background_smallest.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+
+	@media (min-width: 767px) {
+		background-image: url(../img/background_w1024.jpg);
+	}
+
+	@media (min-width: 1025px) {
+		background-image: url(../img/background_w1280.jpg);
+	}
+
+	@media (min-width: 1281px) {
+		background-image: url(../img/background_w1680.jpg);
+	}
+
+	@media (min-width: 1681px) {
+		background-image: url(../img/background_w1920.jpg);
+	}
+
+	@media (min-width: 1921px) {
+		background-image: url(../img/background_w2560.jpg);
+	}
+
+	@media (min-width: 2561px) {
+		background-image: url(../img/background_largest.jpg);
+	}
+}
+
+/* Layout */
+.site-container {
+	padding: 2em 3em;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.span1, .span2, .span3, .span4,
+.span5, .span6, .span7, .span8,
+.span9, .span10, .span11, .span12 {
+	margin-bottom: 1em;
+
+	&.container {
+		margin-bottom: 0;
+	}
+}
+
+// footer {
+// 	margin-top: 2em;
+// }
+
+/* Usefull classes */
+.bg-w {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.txt-pad-d, .txt-pad1 {
+	padding: 1em;
+}
+
+/* Text markup */
+h1 {
+	font-family: "Arial Black", Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	color: @blue !important;
+}
+
+h3:first-child {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+h3 {
+	color: @blue !important;
+}
+
+a {
+	color: @red !important;
+}
+
+p:last-child {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
