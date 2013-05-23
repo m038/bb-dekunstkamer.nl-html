@@ -3,11 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Mischa Gorinskat - Web Developer
+    bb-dekunstkamer.nl
 
 # TECHNOLOGY COLOPHON
 
